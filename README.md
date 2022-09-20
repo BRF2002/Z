@@ -1,2 +1,2 @@
 # Z
-https://gartic.io/022IWq8J
+stopots.com/25096
