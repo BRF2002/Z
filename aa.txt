@@ -1,0 +1,16 @@
+BottomUP- Dividido em várias etapas, mais rapido a entrega e de mais valor primeiro, A informações não são relacionadas, gera menos informações estratégicas. Mais barato a longo prazo.
+TopDowm- Gera mais informações estratégicas, possui mais reuso de código porém Possui mais custo, modelo mais lento
+
+Star Schema --> As tabelas dimensões tem atributos redundantes, as dimensões só se ligam com a tabela fato, modelo mais usado e possui mais performance
+Snow Flake --> As tabelas dimensões NÃO podem ter atributos redundantes, MAIS lento, possui mais tabelas e elas se ligam
+
+OLAP são sistemas analíticos, serve como base informativa, OLTP são sistemas transacionais, utilizados no dia a dia
+
+Os dados de um bi não se alteram com muita frequência
+
+Com esta chave é possível criar referencias entre as tabelas, são as famosas “foreign key” ou “chave estrangeira”, “FK”. No “Data Warehouse” essa chave ganha o nome de 
+“Surrogate Key” que é a chave utilizadas nas dimensões para se ligar a tabela fato.
+Conseguir transferir para o BI alterações de dados históricos
+
+dimensão mascarada tem o tempo de resposta menor
+dimensão compartilhada utilizada para integrar data mart diferentes
